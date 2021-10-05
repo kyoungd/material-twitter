@@ -25,3 +25,17 @@ https://docs.timescale.com/timescaledb/latest/getting-started/create-hypertable/
 
 SELECT create_hypertable('site_yahoos','pub_date', migrate_data=>'true');
 SELECT create_hypertable('tweets','tweet_dt');
+
+## APPLICATION INSTALLATION
+
+# CALL SAMPLE
+
+http://localhost:8101/tweets?symbol=AAPL&from_dt=2021-10-4 12:11:30
+
+# API application
+
+python3 app.py
+
+## dependency
+
+None
